@@ -11,7 +11,8 @@ body:
 - type: input
   id: contact1
   attributes:
-    label: "#### 角色名称"
+    label: |
+      #### 角色名称
     placeholder: 旅行者
   validations:
     required: true
