@@ -17,3 +17,9 @@ body:
     options:
     - label: 我确认
       required: true
+- type: checkboxes
+  id: title-test
+  attributes:
+    options:
+    - label: 已设置合适的标题
+      required: true
