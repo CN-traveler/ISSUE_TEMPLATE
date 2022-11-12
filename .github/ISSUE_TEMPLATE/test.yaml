@@ -78,6 +78,11 @@ body:
     placeholder: "10"
   validations:
     required: true
+- type: textarea
+  attributes:
+    label: 补充
+  validations:
+    required: false
 - type: checkboxes
   id: all-filled-checkboxes
   attributes:
