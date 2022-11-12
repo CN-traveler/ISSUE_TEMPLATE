@@ -6,8 +6,7 @@ assignees: Lightczx
 body:
 - type: markdown
   attributes:
-    value: |
-      请按下方的要求填写完整的问题表单
+    value: "请按下方的要求填写完整的问题表单"
 - type: input
   id: contact1
   attributes:
