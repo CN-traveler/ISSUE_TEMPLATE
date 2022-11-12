@@ -83,7 +83,7 @@ body:
   validations:
     required: false
 - type: checkboxes
-  id: all-filled-checkboxes
+  id: no-duplicated-checkboxes
   attributes:
     label: 当前角色没有其它的圣遗物评分细则建议
     options:
