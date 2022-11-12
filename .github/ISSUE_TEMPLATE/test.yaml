@@ -7,7 +7,7 @@ body:
   attributes:
     label: 已完整填写表单
     id: all-filled-checkboxes
-    default: true
+    value: true
     options:
     - label: 我确认
       required: true
@@ -15,7 +15,7 @@ body:
   attributes:
     label: 已设置合适的标题
     id: title-filled-checkboxes
-    default: true
+    value: true
     options:
     - label: 我确认
       required: true
