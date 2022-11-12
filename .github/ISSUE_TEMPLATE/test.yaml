@@ -6,11 +6,10 @@ body:
 - type: input
   id: contact
   attributes:
-    label: Contact Details
-    description: How can we get in touch with you if we need more info?
-    placeholder: ex. email@example.com
+    label: 角色名称
+    placeholder: 旅行者
   validations:
-    required: false
+    required: true
 - type: checkboxes
   id: all-filled-checkboxes
   attributes:
