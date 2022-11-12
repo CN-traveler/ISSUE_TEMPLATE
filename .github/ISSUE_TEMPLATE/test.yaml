@@ -88,7 +88,6 @@ body:
     label: 当前角色没有其它的圣遗物评分细则建议
     options:
     - label: 我确认
-      required: true
 - type: checkboxes
   id: all-filled-checkboxes
   attributes:
