@@ -5,10 +5,10 @@ labels: [Bug, Needs Triage]
 body:
 - type: checkboxes
   attributes:
-    label: Is there an existing issue for this?
+    label: 已设置合适的标题
     description: Please search to see if an issue already exists for the bug you encountered.
     options:
-    - label: I have searched the existing issues
+    - label: 我确认
       required: true
 - type: textarea
   attributes:
