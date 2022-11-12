@@ -1,7 +1,8 @@
-name: 🐞 Bug
-description: File a bug/issue
-title: "[BUG] <title>"
-labels: [Bug, Needs Triage]
+name: Artifact Rating Rules
+description: 圣遗物评分细则建议
+title: "[Artifact Rating] 请在这里填写角色名称"
+labels: area-AvatarInfo
+assignees: Lightczx
 body:
 - type: input
   id: contact1
