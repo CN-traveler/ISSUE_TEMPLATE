@@ -5,8 +5,13 @@ labels: [Bug, Needs Triage]
 body:
 - type: checkboxes
   attributes:
+    label: 已完整填写表单
+    options:
+    - label: 我确认
+      required: true
+- type: checkboxes
+  attributes:
     label: 已设置合适的标题
-    description: Please search to see if an issue already exists for the bug you encountered.
     options:
     - label: 我确认
       required: true
