@@ -3,6 +3,14 @@ description: File a bug/issue
 title: "[BUG] <title>"
 labels: [Bug, Needs Triage]
 body:
+- type: input
+  id: contact
+  attributes:
+    label: Contact Details
+    description: How can we get in touch with you if we need more info?
+    placeholder: ex. email@example.com
+  validations:
+    required: false
 - type: checkboxes
   id: all-filled-checkboxes
   attributes:
@@ -16,11 +24,4 @@ body:
     label: 已设置合适的标题
     options:
     - label: 我确认
-      required: true
-- type: checkboxes
-  id: title-test
-  attributes:
-    label: ----------------
-    options:
-    - label: 已设置合适的标题
       required: true
