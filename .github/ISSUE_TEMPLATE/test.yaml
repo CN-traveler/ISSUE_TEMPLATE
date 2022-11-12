@@ -10,7 +10,7 @@ body:
     placeholder: 旅行者
   validations:
     required: true
-- type: input
+- type: number
   id: contact2
   attributes:
     label: 生命值
