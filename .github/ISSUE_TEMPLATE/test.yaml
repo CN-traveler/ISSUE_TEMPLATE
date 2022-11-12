@@ -4,18 +4,18 @@ title: "[BUG] <title>"
 labels: [Bug, Needs Triage]
 body:
 - type: checkboxes
+  value: true
   attributes:
     label: 已完整填写表单
     id: all-filled-checkboxes
-    value: true
     options:
     - label: 我确认
       required: true
 - type: checkboxes
+  value: true
   attributes:
     label: 已设置合适的标题
     id: title-filled-checkboxes
-    value: true
     options:
     - label: 我确认
       required: true
