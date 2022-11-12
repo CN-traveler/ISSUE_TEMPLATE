@@ -14,63 +14,63 @@ body:
   id: contact2
   attributes:
     label: 生命值
-    placeholder: 10
+    placeholder: "10"
   validations:
     required: true
 - type: input
   id: contact3
   attributes:
     label: 攻击力
-    placeholder: 10
+    placeholder: "10"
   validations:
     required: true
 - type: input
   id: contact4
   attributes:
     label: 防御力
-    placeholder: 10
+    placeholder: "10"
   validations:
     required: true
 - type: input
   id: contact5
   attributes:
     label: 暴击率
-    placeholder: 10
+    placeholder: "10"
   validations:
     required: true
 - type: input
   id: contact6
   attributes:
     label: 暴击伤害
-    placeholder: 10
+    placeholder: "10"
   validations:
     required: true
 - type: input
   id: contact7
   attributes:
     label: 元素精通
-    placeholder: 10
+    placeholder: "10"
   validations:
     required: true
 - type: input
   id: contact8
   attributes:
     label: 充能效率
-    placeholder: 10
+    placeholder: "10"
   validations:
     required: true
 - type: input
   id: contact9
   attributes:
     label: 治疗加成
-    placeholder: 10
+    placeholder: "10"
   validations:
     required: true
 - type: input
   id: contact10
   attributes:
     label: 元素伤害
-    placeholder: 10
+    placeholder: "10"
   validations:
     required: true
 - type: checkboxes
