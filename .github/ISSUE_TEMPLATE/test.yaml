@@ -1,4 +1,4 @@
-name: Artifact Rating Rules
+name: Artifact Rating Rules 1
 description: 圣遗物评分细则建议
 title: "[Artifact Rating] 请在这里填写角色名称"
 labels: area-AvatarInfo
@@ -90,3 +90,13 @@ body:
     label: 当前角色没有其它的圣遗物评分细则建议
     options:
     - label: 我确认
+- type: dropdown
+  id: no-duplicated-dropdown
+  attributes:
+    label: 我确认当前角色没有其它的圣遗物评分细则建议
+    description: 如果有，你应该在已有的工单内回复以提出你的建议
+    options:
+    - 否
+    - 是
+  validations:
+    required: true
