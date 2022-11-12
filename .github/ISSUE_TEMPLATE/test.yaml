@@ -20,7 +20,7 @@ body:
 - type: checkboxes
   id: title-test
   attributes:
-    label: ""
+    label: ----------------
     options:
     - label: 已设置合适的标题
       required: true
